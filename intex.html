@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2040 School 常用表單與紀錄中心</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f7f9f8;
+            color: #2c3e35;
+        }
+        .font-serif-tc {
+            font-family: 'Noto Serif TC', serif;
+        }
+        /* 文青風柔和漸層背景與質感紙張紋理感 */
+        .paper-bg {
+            background-color: #fafbf9;
+            background-image: radial-gradient(#e3ede9 0.75px, transparent 0.75px);
+            background-size: 16px 16px;
+        }
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px -10px rgba(44, 82, 74, 0.12);
+        }
+    </style>
+</head>
+<body class="paper-bg min-h-screen flex flex-col justify-between selection:bg-[#5b8c85] selection:text-white">
+
+    <!-- 頂部區塊 (Logo 與標題) -->
+    <header class="w-full py-12 px-4 text-center">
+        <div class="max-w-2xl mx-auto flex flex-col items-center">
+            <!-- 模擬 Logo 呈現 -->
+            <div class="mb-4 inline-flex flex-col items-center justify-center p-6 rounded-full border-2 border-[#4a7c74] bg-white/70 shadow-sm backdrop-blur-sm">
+                <span class="font-serif-tc text-3xl font-semibold tracking-wider text-[#355c54]">2040</span>
+                <span class="font-serif-tc text-2xl italic tracking-wide text-[#355c54] -mt-1">School</span>
+                <span class="text-xs tracking-widest text-[#5b8c85] mt-1 font-medium">國際化線上教育平台</span>
+            </div>
+            <h1 class="font-serif-tc text-xl md:text-2xl font-normal text-[#2c3e35] mt-2 tracking-wide">
+                常用表單與工作紀錄中心
+            </h1>
+            <p class="text-sm text-gray-500 mt-1">點擊下方卡片即可直接開啟對應表單或紀錄表</p>
+        </div>
+    </header>
+
+    <!-- 主要內容：表單清單 -->
+    <main class="w-full max-w-3xl mx-auto px-4 pb-16 flex-grow">
+        <div class="space-y-4" id="form-list">
+            
+            <!-- 1. 26夏現職名冊＆1對1交流表單 -->
+            <a href="https://docs.google.com/spreadsheets/d/1d_-2lzEyDDSvIKs_eegpksrViv-LLpZdwc_mt5ONn1U/edit?usp=sharing" target="_blank" rel="noopener noreferrer" 
+               class="card-hover group block bg-white border border-[#e2ede8] rounded-xl p-5 md:p-6 shadow-sm">
+                <div class="flex items-start space-x-4">
+                    <div class="p-3 bg-[#f0f5f3] rounded-lg text-[#4a7c74] group-hover:bg-[#4a7c74] group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center justify-between">
+                            <h2 class="font-serif-tc text-lg md:text-xl font-medium text-[#2c3e35] group-hover:text-[#4a7c74] transition-colors">
+                                26夏現職名冊 ＆ 1對1交流表單
+                            </h2>
+                            <span class="text-xs text-gray-400 group-hover:text-[#4a7c74] transition-colors flex items-center">
+                                查看表格
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            </span>
+                        </div>
+                        <p class="text-xs text-gray-400 truncate mt-1">https://docs.google.com/spreadsheets/d/1d_-2lzEyDDSvIKs_eegpksrViv-LLpZdwc_mt5ONn1U/edit?usp=sharing</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 2. 文案組報題表單 -->
+            <a href="https://docs.google.com/spreadsheets/d/1lBkiaS4WsXipWQ2bZiYiQxsYlwPQm5kWMPKoDEGOoVg/edit?usp=sharing" target="_blank" rel="noopener noreferrer" 
+               class="card-hover group block bg-white border border-[#e2ede8] rounded-xl p-5 md:p-6 shadow-sm">
+                <div class="flex items-start space-x-4">
+                    <div class="p-3 bg-[#f0f5f3] rounded-lg text-[#4a7c74] group-hover:bg-[#4a7c74] group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center justify-between">
+                            <h2 class="font-serif-tc text-lg md:text-xl font-medium text-[#2c3e35] group-hover:text-[#4a7c74] transition-colors">
+                                文案組報題表單
+                            </h2>
+                            <span class="text-xs text-gray-400 group-hover:text-[#4a7c74] transition-colors flex items-center">
+                                查看表格
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            </span>
+                        </div>
+                        <p class="text-xs text-gray-400 truncate mt-1">https://docs.google.com/spreadsheets/d/1lBkiaS4WsXipWQ2bZiYiQxsYlwPQm5kWMPKoDEGOoVg/edit?usp=sharing</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 3. 文案組文案繳交表單 -->
+            <a href="https://docs.google.com/spreadsheets/d/1HGgoOi7N4stg5IDCKwR23QG-Y7wv0Grd54_zLrRBK2k/edit?gid=2060622692#gid=2060622692" target="_blank" rel="noopener noreferrer" 
+               class="card-hover group block bg-white border border-[#e2ede8] rounded-xl p-5 md:p-6 shadow-sm">
+                <div class="flex items-start space-x-4">
+                    <div class="p-3 bg-[#f0f5f3] rounded-lg text-[#4a7c74] group-hover:bg-[#4a7c74] group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center justify-between">
+                            <h2 class="font-serif-tc text-lg md:text-xl font-medium text-[#2c3e35] group-hover:text-[#4a7c74] transition-colors">
+                                文案組文案繳交表單
+                            </h2>
+                            <span class="text-xs text-gray-400 group-hover:text-[#4a7c74] transition-colors flex items-center">
+                                查看表格
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            </span>
+                        </div>
+                        <p class="text-xs text-gray-400 truncate mt-1">https://docs.google.com/spreadsheets/d/1HGgoOi7N4stg5IDCKwR23QG-Y7wv0Grd54_zLrRBK2k/edit?gid=2060622692</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 4. 公關組輪值＆工作表單 (新加入) -->
+            <a href="https://docs.google.com/spreadsheets/d/1JWFHVmio8CPCIoRmV1wfYDJa4RDrdYHVOfdsop1gdcw/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer" 
+               class="card-hover group block bg-white border border-[#e2ede8] rounded-xl p-5 md:p-6 shadow-sm">
+                <div class="flex items-start space-x-4">
+                    <div class="p-3 bg-[#f0f5f3] rounded-lg text-[#4a7c74] group-hover:bg-[#4a7c74] group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center justify-between">
+                            <h2 class="font-serif-tc text-lg md:text-xl font-medium text-[#2c3e35] group-hover:text-[#4a7c74] transition-colors">
+                                公關組輪值＆工作表單
+                            </h2>
+                            <span class="text-xs text-gray-400 group-hover:text-[#4a7c74] transition-colors flex items-center">
+                                查看表格
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            </span>
+                        </div>
+                        <p class="text-xs text-gray-400 truncate mt-1">https://docs.google.com/spreadsheets/d/1JWFHVmio8CPCIoRmV1wfYDJa4RDrdYHVOfdsop1gdcw/edit?gid=0#gid=0</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 5. 新聞報題表單 -->
+            <a href="https://docs.google.com/spreadsheets/d/1EF8wOMBas5fIhE5TmqgmtxavEFZVH8Sjp9pwbzv6cGg/edit?usp=sharing" target="_blank" rel="noopener noreferrer" 
+               class="card-hover group block bg-white border border-[#e2ede8] rounded-xl p-5 md:p-6 shadow-sm">
+                <div class="flex items-start space-x-4">
+                    <div class="p-3 bg-[#f0f5f3] rounded-lg text-[#4a7c74] group-hover:bg-[#4a7c74] group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path></svg>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center justify-between">
+                            <h2 class="font-serif-tc text-lg md:text-xl font-medium text-[#2c3e35] group-hover:text-[#4a7c74] transition-colors">
+                                新聞報題表單
+                            </h2>
+                            <span class="text-xs text-gray-400 group-hover:text-[#4a7c74] transition-colors flex items-center">
+                                查看表格
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            </span>
+                        </div>
+                        <p class="text-xs text-gray-400 truncate mt-1">https://docs.google.com/spreadsheets/d/1EF8wOMBas5fIhE5TmqgmtxavEFZVH8Sjp9pwbzv6cGg/edit?usp=sharing</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 6. 2040大會請假表單 -->
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScJLJJZabTg8n-xH8vXWEOPXe0wBaDsEZECxNceJTB04NM4dA/viewform?usp=header" target="_blank" rel="noopener noreferrer" 
+               class="card-hover group block bg-white border border-[#e2ede8] rounded-xl p-5 md:p-6 shadow-sm">
+                <div class="flex items-start space-x-4">
+                    <div class="p-3 bg-[#f0f5f3] rounded-lg text-[#4a7c74] group-hover:bg-[#4a7c74] group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center justify-between">
+                            <h2 class="font-serif-tc text-lg md:text-xl font-medium text-[#2c3e35] group-hover:text-[#4a7c74] transition-colors">
+                                2040大會請假表單
+                            </h2>
+                            <span class="text-xs text-gray-400 group-hover:text-[#4a7c74] transition-colors flex items-center">
+                                填寫表單
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            </span>
+                        </div>
+                        <p class="text-xs text-gray-400 truncate mt-1">https://docs.google.com/forms/d/e/1FAIpQLScJLJJZabTg8n-xH8vXWEOPXe0wBaDsEZECxNceJTB04NM4dA/viewform?usp=header</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 7. 26夏 大會出席紀錄 -->
+            <a href="https://docs.google.com/spreadsheets/d/1YD0-FHx7GJ6qiA9fiFDGi0hcansP0iGRHj-VIlScT1o/edit?usp=sharing" target="_blank" rel="noopener noreferrer" 
+               class="card-hover group block bg-white border border-[#e2ede8] rounded-xl p-5 md:p-6 shadow-sm">
+                <div class="flex items-start space-x-4">
+                    <div class="p-3 bg-[#f0f5f3] rounded-lg text-[#4a7c74] group-hover:bg-[#4a7c74] group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center justify-between">
+                            <h2 class="font-serif-tc text-lg md:text-xl font-medium text-[#2c3e35] group-hover:text-[#4a7c74] transition-colors">
+                                26夏 大會出席紀錄
+                            </h2>
+                            <span class="text-xs text-gray-400 group-hover:text-[#4a7c74] transition-colors flex items-center">
+                                查看表格
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            </span>
+                        </div>
+                        <p class="text-xs text-gray-400 truncate mt-1">https://docs.google.com/spreadsheets/d/1YD0-FHx7GJ6qiA9fiFDGi0hcansP0iGRHj-VIlScT1o/edit?usp=sharing</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 8. 2040工作手冊 (新加入) -->
+            <a href="https://docs.google.com/document/d/1D1NJNr4foaJL947XLpeAHB4EJbXnUKoYmrIsdRxHh70/edit?usp=sharing" target="_blank" rel="noopener noreferrer" 
+               class="card-hover group block bg-white border border-[#e2ede8] rounded-xl p-5 md:p-6 shadow-sm">
+                <div class="flex items-start space-x-4">
+                    <div class="p-3 bg-[#f0f5f3] rounded-lg text-[#4a7c74] group-hover:bg-[#4a7c74] group-hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center justify-between">
+                            <h2 class="font-serif-tc text-lg md:text-xl font-medium text-[#2c3e35] group-hover:text-[#4a7c74] transition-colors">
+                                2040工作手冊
+                            </h2>
+                            <span class="text-xs text-gray-400 group-hover:text-[#4a7c74] transition-colors flex items-center">
+                                閱讀手冊
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            </span>
+                        </div>
+                        <p class="text-xs text-gray-400 truncate mt-1">https://docs.google.com/document/d/1D1NJNr4foaJL947XLpeAHB4EJbXnUKoYmrIsdRxHh70/edit?usp=sharing</p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </main>
+
+    <!-- 底部版權 -->
+    <footer class="w-full py-6 text-center text-xs text-gray-400 border-t border-gray-200/60">
+        <p>&copy; 2040 School 國際化線上教育平台. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
